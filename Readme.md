@@ -16,18 +16,16 @@ pip3 install datetime
 * Export python path using following command `export PYTHONPATH=../src:$PYTHONPATH` to set path correctly.
 
 * Directory structure of the project -
-  * Parent level folder: `hf_bi_python_exercise`
+  * Create Parent level folder: `hf_bi_python_exercise`
   * Actual source code folder and file: `hf_bi_python_exercise/recipes-etl/src/main.py`.
 
-  * Output file folder: All output file is stored in `outputFile/` folder. It as two csv file, one is for `Chiles.csv` and `Results.csv`.
+  * Output file folder: All output file is stored in `outputFile/` folder. Create that folder inside `hf_bi_python_exercise/recipes-etl/`. It will holder results csv, one is for `Chiles.csv` and `Results.csv`.
     * Chiles.csv - Is the actual result after performing the ETL.
     * Results.csv - Is the final result with 3 rows only where data is aggregated by average total time and grouped by difficulty level.
 
-  * Config File: Config file is present in `hf_bi_python_exercise/recipes-etl/src/config.json`
+  * Config File: Create Config file in `hf_bi_python_exercise/recipes-etl/src/` folder and name it as `config.json`.
     * Config file is a json based file which has source file location and output file location.
     * This locations should be changed to match the location where this job will run.
-
-  * Scripts Folder: This folder has shell script to run the python job. 
 
 * Using Python to run the ELT job:
 * Go to the root of the directory using `cd hf_bi_python_exercise/recipes-etl/` and then run following command:
@@ -37,7 +35,7 @@ python src/main.py
 ```
 
 * Unit Tests:
-  * Unit tests are stored in `hf_bi_python_exercise/recipes-etl/tests/` folder.
+  * Create unit tests folder inside `hf_bi_python_exercise/recipes-etl/` and store Unit tests in `hf_bi_python_exercise/recipes-etl/tests/` folder.
 
 * Command to run the unit test cases:
 * Go to the parent folder using `cd hf_bi_python_exercise/recipes-etl` and then run following command:
