@@ -1,0 +1,6 @@
+{
+    "sourceFileUrl": "https://bnlf-tests.s3.eu-central-1.amazonaws.com/recipes.json",
+    "saveFilePath": "/Users/sohansamant/Desktop/SohanSamant/hf_bi_python_exercise/recipes-etl/inputFile/recipes.json",
+    "chileOutputFilePath": "/Users/sohansamant/Desktop/SohanSamant/hf_bi_python_exercise/recipes-etl/outputFile/Chilies.csv",
+    "resultOutputFilePath": "/Users/sohansamant/Desktop/SohanSamant/hf_bi_python_exercise/recipes-etl/outputFile/Results.csv"
+}
